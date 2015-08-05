@@ -1,0 +1,8 @@
+git init
+git add .....
+
+git commit -m "commits....."
+git remote add origin https://github.com/rao1219/qt-SON.git
+
+
+git push -u origin master
