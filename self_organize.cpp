@@ -12,3 +12,8 @@ self_organize::~self_organize()
 {
     delete ui;
 }
+
+void self_organize::on_buttonBox_accepted()
+{
+
+}

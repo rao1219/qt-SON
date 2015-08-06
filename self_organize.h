@@ -15,6 +15,9 @@ public:
     explicit self_organize(QWidget *parent = 0);
     ~self_organize();
 
+private slots:
+    void on_buttonBox_accepted();
+
 private:
     Ui::self_organize *ui;
 };

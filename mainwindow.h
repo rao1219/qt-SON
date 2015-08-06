@@ -10,6 +10,7 @@
 #include "ap.h"
 #include "dot.h"
 #include "set_algorithm.h"
+#include "self_youhua.h"
 
 #define R 30
 using namespace std;
@@ -28,6 +29,7 @@ public:
     self_set *self_window;
     self_organize *self_organizeWindow;
     GraphicsTest *graTest;
+    bool hasSet;
 
 private slots:
     void on_tab_destroyed();
@@ -67,6 +69,7 @@ private:
     int m,n;
     QString out;
     Set_algorithm *setAlgo;
+    self_youhua *setYouhua;
 
     QList<QGraphicsEllipseItem *> redElipse;
     QList<QGraphicsEllipseItem *> blueElipse;

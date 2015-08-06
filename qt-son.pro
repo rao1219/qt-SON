@@ -19,7 +19,9 @@ SOURCES += main.cpp\
     graphicstest.cpp \
     set_algorithm.cpp \
     ap.cpp \
-    dot.cpp
+    dot.cpp \
+    user.cpp \
+    self_youhua.cpp
 
 HEADERS  += mainwindow.h \
     self_set.h \
@@ -27,7 +29,9 @@ HEADERS  += mainwindow.h \
     graphicstest.h \
     set_algorithm.h \
     ap.h \
-    dot.h
+    dot.h \
+    user.h \
+    self_youhua.h
 
 FORMS    += mainwindow.ui \
     self_set.ui \

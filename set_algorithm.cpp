@@ -231,7 +231,7 @@ double Set_algorithm::getResultPower()
                     }
                     temp=temp-mapDot[k][j].receivePower;
                     mapDot[k][j].ganraoPower=temp;
-                    mapDot[k][j].SINR=mapDot[k][j].receivePower/mapDot[k][j].ganraoPower;
+                    mapDot[k][j].SINR=(mapDot[k][j].receivePower-mapDot[k][j].ganraoPower)/40;
 
                 }
                 //cerr<<clock()<<endl;

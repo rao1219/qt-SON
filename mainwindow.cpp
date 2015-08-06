@@ -3,6 +3,7 @@
 #include <QGraphicsItem>
 #include <QDebug>
 #include <stdlib.h>
+#include <QMessageBox>
 #define RD 0
 #define EXTRA 2*R+15
 #define DOT 10
@@ -26,6 +27,8 @@ MainWindow::MainWindow(QWidget *parent) :
     scene = new QGraphicsScene(this);
     ui->graphicsView->setScene(scene);
    // this->_addLineGraph();
+    setYouhua = new self_youhua;
+    hasSet=false;
     out = "";
     m=1;n=0;
 }
@@ -116,14 +119,47 @@ void MainWindow::on_pushButton_clicked()
         }
     }
     _addLineGraph();
+    setYouhua->default_aplist = setAlgo->apList;
+    setYouhua->defalt_ratio = setAlgo->ratio;
+    hasSet=true;
     QString result = "配置结果              功率：   "+QString::number(setAlgo->resultPower);
     this->ui->textEdit_2->setText(result+(setAlgo->suboutput));
 }
 
 void MainWindow::on_pushButton_2_clicked()
 {
-    self_organizeWindow = new self_organize;
-    self_organizeWindow->exec();
+    this->scene->clear();
+    if(hasSet==false)
+    {
+        QMessageBox::information(this,"Error!","请先进行自配置！");
+    }
+    else{
+        QBrush redBrush(Qt::red);
+        QBrush blueBrush(Qt::blue);
+        QBrush yellowBrush(Qt::yellow);
+
+        QPen blackPen(Qt::black);
+        blackPen.setWidth(0.5);
+        QPen bluePen(Qt::blue);
+        bluePen.setWidth(0.5);
+        self_organizeWindow = new self_organize;
+        self_organizeWindow->exec();
+
+        for(int i=0;i<setYouhua->default_aplist.size();i++){
+            AP *temp = setYouhua->default_aplist.at(i);
+            qDebug()<<"x,y:"<<temp->x()<<" "<<temp->y()<<endl;
+
+            if(temp->frequency==1)
+                this->scene->addEllipse(temp->x(),temp->y(),(setYouhua->defalt_ratio)*EXR,(setYouhua->defalt_ratio)*EXR,blackPen,blueBrush);
+            else if(temp->frequency==6)
+                this->scene->addEllipse(temp->x(),temp->y(),(setYouhua->defalt_ratio)*EXR,(setYouhua->defalt_ratio)*EXR,blackPen,redBrush);
+            else if(temp->frequency==11)
+                this->scene->addEllipse(temp->x(),temp->y(),(setYouhua->defalt_ratio)*EXR,(setYouhua->defalt_ratio)*EXR,blackPen,yellowBrush);
+        }
+
+        _addLineGraph();
+    }
+
 }
 
 void MainWindow::on_pushButton_3_clicked()
