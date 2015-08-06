@@ -31,6 +31,7 @@ MainWindow::MainWindow(QWidget *parent) :
     hasSet=false;
     out = "";
     m=1;n=0;
+    qDebug()<<"---未来无线网络自优化演示软件平台---"<<endl;
 }
 
 MainWindow::~MainWindow()
@@ -68,7 +69,7 @@ void MainWindow::on_pushButton_clicked()
     QPen bluePen(Qt::blue);
     bluePen.setWidth(0.5);
     self_window = new self_set;
-    qDebug()<<"hello"<<endl;
+    qDebug()<<"Welcome!"<<endl;
     self_window->exec();
     QDateTime time = QDateTime::currentDateTime();//获取系统现在的时间
     QString _time = time.toString("yyyy-MM-dd hh:mm:ss ddd"); //设置显示格式
@@ -104,6 +105,8 @@ void MainWindow::on_pushButton_clicked()
 
         QString resultPower=QString::number(setAlgo->resultPower)+"\n";
         out=out+resultPower;
+
+        qDebug()<<out<<endl;
         this->ui->textEdit->setText(out);
 
         for(int i=0;i<setAlgo->apList.size();i++){
