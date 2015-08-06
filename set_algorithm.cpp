@@ -15,6 +15,7 @@ double Set_algorithm::getResultPower()
 {
     double resultPower;
     Dot mapDot[400][400];
+    QString suboutput="";
 /*
     qDebug()<<"choice"<<this->choice<<endl;
     qDebug()<<"cover"<<this->coverRate<<endl;
@@ -171,6 +172,7 @@ double Set_algorithm::getResultPower()
             eerList.append(eer);
         }
         this->resultEEr = maxEEr;
+        suboutput = "\n能效比："+QString::number(maxEEr);
         resultPower = validPower.at(maxEErlabel);
         qDebug()<<"result:"<<resultPower<<endl;
     }
@@ -279,9 +281,20 @@ double Set_algorithm::getResultPower()
             }
         }
         resultPower=validPower.at(label);
+        suboutput = "\nSINR:  "+QString::number(maxSINR);
         qDebug()<<"result:"<<resultPower<<endl;
     }
+    qDebug()<<"pos 1 resultpower"<<resultPower<<endl;
+    this->resultPower = resultPower;
+    this->suboutput=suboutput;
+    getRatio();
     return resultPower;
+}
+
+double Set_algorithm::getRatio()
+{
+    qDebug()<<"result power:"<<this->resultPower<<endl;
+    this->ratio=exp((this->resultPower-this->RESP0-this->b)*1.0/this->a);
 }
 
 double Set_algorithm::getD0(double a,double b,double SINR,int RESP0,int power)

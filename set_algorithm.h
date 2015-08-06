@@ -12,6 +12,7 @@ public:
     int RESP0;
     int coverRate;
     int choice;
+    double resultPower;
     double _x,_y;
     double a,b;
     double SINR;
@@ -22,12 +23,14 @@ public:
     AP * newAP;
     double ratio;
     double resultEEr;
+    QString suboutput;
 
     double getResultPower();
     double getD0(double a,double b,double SINR,int RESP0,int power);
     double getL0();
+    double getRatio();
 private:
-    double resultPower;
+
     double d0;
     double l0;
 

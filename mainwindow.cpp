@@ -97,8 +97,9 @@ void MainWindow::on_pushButton_clicked()
         setAlgo->b=self_window->b;
 
         qDebug()<<out;
+        setAlgo->resultPower = setAlgo->getResultPower();
 
-        QString resultPower=QString::number(setAlgo->getResultPower())+"\n";
+        QString resultPower=QString::number(setAlgo->resultPower)+"\n";
         out=out+resultPower;
         this->ui->textEdit->setText(out);
 
@@ -115,6 +116,8 @@ void MainWindow::on_pushButton_clicked()
         }
     }
     _addLineGraph();
+    QString result = "配置结果              功率：   "+QString::number(setAlgo->resultPower);
+    this->ui->textEdit_2->setText(result+(setAlgo->suboutput));
 }
 
 void MainWindow::on_pushButton_2_clicked()
