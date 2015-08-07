@@ -81,6 +81,7 @@ int self_youhua::checkSituation()
         }
     }
 
+    QList<int> overLabel;
     for(int i=0;i<default_aplist.size();i++)
     {
         double totalSpeed=0;
@@ -93,7 +94,32 @@ int self_youhua::checkSituation()
         }
         if(totalSpeed>default_aplist.at(i)->total_wifiSpeed)
         {
+            overLabel.append(i);
+        }
+    }
 
+    for(int i=0;i<overLabel.size();i++)
+    {
+        int search = overLabel.at(i);
+        double minReceive=11111111;
+        int userLabel;
+        for (int j=0;j<userList.size();j++)
+        {
+            if(userList.at(j)->ap_label==search)
+            {
+                if(userList.at(j)->receivePower<minReceive)
+                {
+                    minReceive=userList.at(j)->receivePower;
+                    userLabel=j;
+                }
+            }
+        }
+        if(overLabel.size()!=0)
+        {
+            qDebug()<<"--触发容量自配置--"<<endl;
+            qDebug()<<search<<" 站点最小接收功率"<<minReceive<<endl;
+            qDebug()<<"用户位置："<<userLabel<<endl;
+            return 3;
         }
     }
 
