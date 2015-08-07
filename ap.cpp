@@ -7,6 +7,7 @@ AP::AP(QGraphicsItem *parent) :QGraphicsItem (parent)
 {
     this->unsatisfiedNum=0;
     this->totalUser=0;
+    this->total_wifiSpeed=2.0;
 }
 
 void AP::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
