@@ -81,6 +81,22 @@ int self_youhua::checkSituation()
         }
     }
 
+    for(int i=0;i<default_aplist.size();i++)
+    {
+        double totalSpeed=0;
+        for(int j=0;j<userList.size();j++)
+        {
+            if(userList.at(j)->ap_label==i)
+            {
+                totalSpeed+=userList.at(j)->receivePower;
+            }
+        }
+        if(totalSpeed>default_aplist.at(i)->total_wifiSpeed)
+        {
+
+        }
+    }
+
     return 0;
 }
 
