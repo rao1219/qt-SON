@@ -11,6 +11,11 @@ public:
     QRectF boundingRect() const;
     int power;
     int frequency;
+    double total_wifiSpeed;
+    double rest_wifiSpeed;
+    int unsatisfiedNum;
+    int totalUser;
+
 private:
     struct position{
         int x,y;

@@ -148,9 +148,18 @@ void MainWindow::on_pushButton_2_clicked()
         self_organizeWindow = new self_organize;
         self_organizeWindow->exec();
 
+        setYouhua->initUser();
+        int result = setYouhua->checkSituation();
+        qDebug()<<result<<endl;
+
+        if(result==0)
+        {
+            qDebug()<<"正常"<<endl;
+        }
+
         for(int i=0;i<setYouhua->default_aplist.size();i++){
             AP *temp = setYouhua->default_aplist.at(i);
-            qDebug()<<"x,y:"<<temp->x()<<" "<<temp->y()<<endl;
+         //   qDebug()<<"x,y:"<<temp->x()<<" "<<temp->y()<<endl;
 
             if(temp->frequency==1)
                 this->scene->addEllipse(temp->x(),temp->y(),(setYouhua->defalt_ratio)*EXR,(setYouhua->defalt_ratio)*EXR,blackPen,blueBrush);

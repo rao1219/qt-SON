@@ -9,7 +9,10 @@ public:
     int ap_label;
     double receivePower;
     double SINR;
-    void init(int ap_label,double receivePower,double SINR);
+    double wifiSpeed;
+    bool satisfied;
+    void init(int ap_label,double receivePower,double SINR,double wifiSpeed);
+
 };
 
 #endif // USER_H
