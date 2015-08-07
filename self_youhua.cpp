@@ -117,7 +117,7 @@ int self_youhua::checkSituation()
         if(overLabel.size()!=0)
         {
             qDebug()<<"--触发容量自配置--"<<endl;
-            qDebug()<<search<<" 站点最小接收功率"<<minReceive<<endl;
+            qDebug()<<search<<" 当前用户最小接收功率"<<minReceive<<endl;
             qDebug()<<"用户位置："<<userLabel<<endl;
             return 3;
         }
