@@ -73,6 +73,5 @@ void GraphicsTest::on_pushButton_3_clicked()
 void GraphicsTest::on_horizontalSlider_valueChanged(int value)
 {
     qreal scale = qPow(qreal(2), (value - 250) / qreal(50));
-
     ui->graphicsView->scale(scale,scale);
 }
