@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>self_organize</class>
- <widget class="QDialog" name="self_organize">
+ <author/>
+ <comment/>
+ <exportmacro/>
+ <class>self_optimize_set</class>
+ <widget class="QDialog" name="self_optimize_set">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -10,14 +12,8 @@
     <height>300</height>
    </rect>
   </property>
-  <property name="acceptDrops">
-   <bool>false</bool>
-  </property>
   <property name="windowTitle">
-   <string>自优化</string>
-  </property>
-  <property name="styleSheet">
-   <string notr="true">background-color: rgb(29, 15, 29);</string>
+   <string>Dialog</string>
   </property>
   <widget class="QDialogButtonBox" name="buttonBox">
    <property name="geometry">
@@ -36,12 +32,13 @@
    </property>
   </widget>
  </widget>
+ <pixmapfunction/>
  <resources/>
  <connections>
   <connection>
    <sender>buttonBox</sender>
    <signal>accepted()</signal>
-   <receiver>self_organize</receiver>
+   <receiver>self_optimize_set</receiver>
    <slot>accept()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -57,7 +54,7 @@
   <connection>
    <sender>buttonBox</sender>
    <signal>rejected()</signal>
-   <receiver>self_organize</receiver>
+   <receiver>self_optimize_set</receiver>
    <slot>reject()</slot>
    <hints>
     <hint type="sourcelabel">
