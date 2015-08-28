@@ -137,6 +137,11 @@ void MainWindow::on_pushButton_2_clicked()
         QMessageBox::information(this,"Error!","请先进行自配置！");
     }
     else{
+        qDebug()<<"self_optimizing"<<endl;
+        self_organizeWindow = new self_optimize_set;
+        self_organizeWindow->exec();
+
+
         QBrush redBrush(Qt::red);
         QBrush blueBrush(Qt::blue);
         QBrush yellowBrush(Qt::yellow);
@@ -145,8 +150,6 @@ void MainWindow::on_pushButton_2_clicked()
         blackPen.setWidth(0.5);
         QPen bluePen(Qt::blue);
         bluePen.setWidth(0.5);
-        self_organizeWindow = new self_organize;
-        self_organizeWindow->exec();
 
         setYouhua->initUser();
         int result = setYouhua->checkSituation();
@@ -182,7 +185,7 @@ void MainWindow::on_pushButton_3_clicked()
 
 void MainWindow::on_action_2_triggered()
 {
-    self_organizeWindow = new self_organize;
+    self_organizeWindow = new self_optimize_set;
     self_organizeWindow->exec();
 }
 

@@ -319,6 +319,10 @@ font: 16pt &quot;Ubuntu&quot;;
          </widget>
         </item>
        </layout>
+       <zorder>pushButton</zorder>
+       <zorder>pushButton_3</zorder>
+       <zorder>pushButton_6</zorder>
+       <zorder>pushButton_2</zorder>
       </widget>
      </widget>
      <widget class="QWidget" name="page_2">

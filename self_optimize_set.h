@@ -2,6 +2,7 @@
 #define SELF_OPTIMIZE_SET_H
 
 #include <QDialog>
+#include "eventbutton.h"
 
 namespace Ui {
 class self_optimize_set;
@@ -17,6 +18,8 @@ public:
 
 private:
     Ui::self_optimize_set *ui;
+    eventButton *event[10];
+
 };
 
 #endif // SELF_OPTIMIZE_SET_H

@@ -15,28 +15,30 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     self_set.cpp \
-    self_organize.cpp \
     graphicstest.cpp \
     set_algorithm.cpp \
     ap.cpp \
     dot.cpp \
     user.cpp \
-    self_youhua.cpp
+    self_youhua.cpp \
+    self_optimize_set.cpp \
+    eventbutton.cpp
 
 HEADERS  += mainwindow.h \
     self_set.h \
-    self_organize.h \
     graphicstest.h \
     set_algorithm.h \
     ap.h \
     dot.h \
     user.h \
-    self_youhua.h
+    self_youhua.h \
+    self_optimize_set.h \
+    eventbutton.h
 
 FORMS    += mainwindow.ui \
     self_set.ui \
-    self_organize.ui \
-    graphicstest.ui
+    graphicstest.ui \
+    self_optimize_set.ui
 
 
 RESOURCES += \

@@ -3,7 +3,6 @@
 
 #include <QMainWindow>
 #include <self_set.h>
-#include <self_organize.h>
 #include <graphicstest.h>
 #include <QListWidgetItem>
 #include <math.h>
@@ -11,6 +10,7 @@
 #include "dot.h"
 #include "set_algorithm.h"
 #include "self_youhua.h"
+#include "self_optimize_set.h"
 
 #define R 30
 using namespace std;
@@ -27,7 +27,7 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
     self_set *self_window;
-    self_organize *self_organizeWindow;
+    self_optimize_set *self_organizeWindow;
     GraphicsTest *graTest;
     bool hasSet;
 
