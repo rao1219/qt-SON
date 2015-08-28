@@ -7,7 +7,7 @@
 #define RD 0
 #define EXTRA 2*R+15
 #define DOT 10
-#define EXR 5
+#define EXR 5.4
 
 
 MainWindow::MainWindow(QWidget *parent) :

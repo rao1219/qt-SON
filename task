@@ -1,9 +1,3 @@
-rao        5854  0.0  0.1  27936  6932 pts/0    Ss   12:47   0:00 /bin/bash
-rao        6637  0.1  0.3 229920 13800 ?        Sl   13:21   0:10 /usr/lib/ibus/ibus-engine-pinyin --ibus
-root       7123  0.1  0.0      0     0 ?        S    14:37   0:01 [kworker/0:2]
-rao        7198  0.9  5.8 4601288 235620 ?      Sl   14:44   0:09 /home/rao/Qt5.5.0/Tools/QtCreator/bin/qtcreator
-rao        7288  0.0  0.2  58576  8524 pts/0    T    14:49   0:00 vim task
-root       7398  0.0  0.1  10236  5252 ?        S    14:59   0:00 /sbin/dhclient -d -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /run/sendsigs.omit.d/network-manager
 rao        7500  0.0  0.0  22648  3004 pts/0    R+   15:00   0:00 ps aux
 rao@ubuntu:~/Desktop$ cd ~/Desktop/
 rao@ubuntu:~/Desktop$ ui task   
@@ -51,17 +45,6 @@ alis :  task_string1="服务器"
 				+-------+许博健+-------->论文:none		|
 					+------+	|安卓:app客户端的开发;  |
 							+-----------------------+
-
-
-
-
-
-
-
-
-
-
-
 
 
 
