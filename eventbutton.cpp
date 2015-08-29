@@ -3,9 +3,9 @@
 eventButton::eventButton(QWidget* parent)
     : QPushButton(parent)
 {
-    setText("");
+    setText("空闲");
     setFixedSize(80, 80);
-    setStyleSheet("QPushButton{background: yellow;}");
+    setStyleSheet("QPushButton{background: green;}");
 }
 void eventButton::enterEvent(QEvent* e)
 {
@@ -14,6 +14,6 @@ void eventButton::enterEvent(QEvent* e)
 }
 void eventButton::leaveEvent(QEvent* e)
 {
-    setText("");
-    setStyleSheet("QPushButton{background: yellow;}");
+    setText("空闲");
+    setStyleSheet("QPushButton{background: green;}");
 }

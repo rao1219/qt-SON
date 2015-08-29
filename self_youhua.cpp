@@ -122,6 +122,7 @@ int self_youhua::checkSituation()
             return 3;
         }
     }
+    
 
     return 0;
 }
