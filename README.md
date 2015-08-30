@@ -19,5 +19,5 @@ Very Simple qt server project
 ### update:
 * update eventbutton
 * update ui-manager
-* add new self_youhua
-
+* add new selfoptimizing
+* fix bugs about event set
