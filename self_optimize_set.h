@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include "eventbutton.h"
+#include "eventset.h"
 
 namespace Ui {
 class self_optimize_set;
@@ -15,6 +16,7 @@ class self_optimize_set : public QDialog
 public:
     explicit self_optimize_set(QWidget *parent = 0);
     ~self_optimize_set();
+    eventSet *eventwindow;
 
 private slots:
     void clickevent();

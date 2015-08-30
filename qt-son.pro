@@ -22,7 +22,8 @@ SOURCES += main.cpp\
     user.cpp \
     self_youhua.cpp \
     self_optimize_set.cpp \
-    eventbutton.cpp
+    eventbutton.cpp \
+    eventset.cpp
 
 HEADERS  += mainwindow.h \
     self_set.h \
@@ -33,12 +34,14 @@ HEADERS  += mainwindow.h \
     user.h \
     self_youhua.h \
     self_optimize_set.h \
-    eventbutton.h
+    eventbutton.h \
+    eventset.h
 
 FORMS    += mainwindow.ui \
     self_set.ui \
     graphicstest.ui \
-    self_optimize_set.ui
+    self_optimize_set.ui \
+    eventset.ui
 
 
 RESOURCES += \

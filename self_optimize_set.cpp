@@ -35,4 +35,6 @@ self_optimize_set::~self_optimize_set()
 void self_optimize_set::clickevent()
 {
     qDebug()<<"confirm event"<<endl;
+    eventwindow = new eventSet;
+    eventwindow->exec();
 }
