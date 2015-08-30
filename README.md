@@ -16,7 +16,7 @@
 
 #### version-3.0 2015-8-30
 ### update:
-    * update eventbutton
-    * update ui-manager
-    * add new self_youhua
+* update eventbutton
+* update ui-manager
+* add new self_youhua
 
