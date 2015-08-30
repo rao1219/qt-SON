@@ -1,5 +1,6 @@
 #include "self_optimize_set.h"
 #include "ui_self_optimize_set.h"
+#include <QDebug>
 
 
 self_optimize_set::self_optimize_set(QWidget *parent) :
@@ -14,6 +15,7 @@ self_optimize_set::self_optimize_set(QWidget *parent) :
     setPalette (bgpal);
     for(int i=0;i<9;i++){
         event[i] = new eventButton;
+        connect(event[i], SIGNAL(clicked()), this, SLOT(clickevent()));
     }
     ui->verticalLayout->addWidget(event[0]);
     ui->verticalLayout_2->addWidget(event[1]);
@@ -28,4 +30,9 @@ self_optimize_set::self_optimize_set(QWidget *parent) :
 self_optimize_set::~self_optimize_set()
 {
     delete ui;
+}
+
+void self_optimize_set::clickevent()
+{
+    qDebug()<<"confirm event"<<endl;
 }

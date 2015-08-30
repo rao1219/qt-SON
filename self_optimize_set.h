@@ -16,6 +16,9 @@ public:
     explicit self_optimize_set(QWidget *parent = 0);
     ~self_optimize_set();
 
+private slots:
+    void clickevent();
+
 private:
     Ui::self_optimize_set *ui;
     eventButton *event[10];
