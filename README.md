@@ -1,4 +1,5 @@
 # qt-SON
+Very Simple qt server project
 ##### version-1.0 2015-7-23
 ### 更新内容：
 * 界面、框架
