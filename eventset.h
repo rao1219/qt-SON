@@ -14,9 +14,10 @@ class eventSet : public QDialog
 public:
     explicit eventSet(QWidget *parent = 0);
     ~eventSet();
+    bool accepted;
 
 private slots:
-    void on_buttonBox_accepted(int);
+    void on_buttonBox_accepted();
 
 private:
     Ui::eventSet *ui;

@@ -15,7 +15,7 @@ self_optimize_set::self_optimize_set(QWidget *parent) :
     setPalette (bgpal);
     for(int i=0;i<9;i++){
         event[i] = new eventButton;
-        connect(event[i], SIGNAL(clicked()), this, SLOT(clickevent()));
+        connect(event[i], SIGNAL(clicked()), this, SLOT(clickevent(i)));
     }
     ui->verticalLayout->addWidget(event[0]);
     ui->verticalLayout_2->addWidget(event[1]);
@@ -32,9 +32,14 @@ self_optimize_set::~self_optimize_set()
     delete ui;
 }
 
-void self_optimize_set::clickevent()
+void self_optimize_set::clickevent(int i)
 {
-    qDebug()<<"confirm event"<<endl;
+    qDebug()<<"confirm event: "+i<<endl;
     eventwindow = new eventSet;
     eventwindow->exec();
+
+    if (eventwindow->accepted == true)
+    {
+        event[i]->hasEvent=true;
+    }
 }

@@ -11,6 +11,7 @@ eventSet::eventSet(QWidget *parent) :
     //bgpal.setColor (QPalette::Background, Qt::transparent);
     bgpal.setColor (QPalette::Foreground, QColor(255,255,255,255));
     setPalette (bgpal);
+    this->accepted=false;
 }
 
 eventSet::~eventSet()
@@ -20,5 +21,5 @@ eventSet::~eventSet()
 
 void eventSet::on_buttonBox_accepted()
 {
-    this->
+    this->accepted=true;
 }

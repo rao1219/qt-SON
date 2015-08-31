@@ -19,7 +19,7 @@ public:
     eventSet *eventwindow;
 
 private slots:
-    void clickevent();
+    void clickevent(int i);
 
 private:
     Ui::self_optimize_set *ui;
