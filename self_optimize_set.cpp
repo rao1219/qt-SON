@@ -1,6 +1,7 @@
 #include "self_optimize_set.h"
 #include "ui_self_optimize_set.h"
 #include <QDebug>
+#include <QMessageBox>
 
 
 self_optimize_set::self_optimize_set(QWidget *parent) :
@@ -15,7 +16,6 @@ self_optimize_set::self_optimize_set(QWidget *parent) :
     setPalette (bgpal);
     for(int i=0;i<9;i++){
         event[i] = new eventButton;
-        connect(event[i], SIGNAL(clicked()), this, SLOT(clickevent(i)));
     }
     ui->verticalLayout->addWidget(event[0]);
     ui->verticalLayout_2->addWidget(event[1]);
@@ -25,6 +25,12 @@ self_optimize_set::self_optimize_set(QWidget *parent) :
     ui->verticalLayout_6->addWidget(event[5]);
     ui->verticalLayout_7->addWidget(event[6]);
 
+    connect(event[0], SIGNAL(clicked()), this, SLOT(clickevent_1()));
+    connect(event[1], SIGNAL(clicked()), this, SLOT(clickevent_2()));
+    connect(event[2], SIGNAL(clicked()), this, SLOT(clickevent_3()));
+    connect(event[3], SIGNAL(clicked()), this, SLOT(clickevent_4()));
+    connect(event[4], SIGNAL(clicked()), this, SLOT(clickevent_5()));
+
 }
 
 self_optimize_set::~self_optimize_set()
@@ -32,14 +38,93 @@ self_optimize_set::~self_optimize_set()
     delete ui;
 }
 
-void self_optimize_set::clickevent(int i)
+void self_optimize_set::clickevent_1()
 {
-    qDebug()<<"confirm event: "+i<<endl;
-    eventwindow = new eventSet;
-    eventwindow->exec();
+    int curr=0;
+    if(event[curr]->hasEvent==true){
+        QMessageBox::information(this,"Error!","不能重复添加事件！");
+    }
+    else{
+        qDebug()<<"confirm event: "<<endl;
+        eventwindow = new eventSet;
+        eventwindow->exec();
 
-    if (eventwindow->accepted == true)
-    {
-        event[i]->hasEvent=true;
+        if (eventwindow->accepted == true)
+        {
+            event[curr]->hasEvent=true;
+            event[curr]->reinit();
+        }
+    }
+}
+void self_optimize_set::clickevent_2()
+{
+    int curr=1;
+    if(event[curr]->hasEvent==true){
+        QMessageBox::information(this,"Error!","不能重复添加事件！");
+    }
+    else{
+        qDebug()<<"confirm event: "<<endl;
+        eventwindow = new eventSet;
+        eventwindow->exec();
+
+        if (eventwindow->accepted == true)
+        {
+            event[curr]->hasEvent=true;
+            event[curr]->reinit();
+        }
+    }
+}
+void self_optimize_set::clickevent_3()
+{
+    int curr=2;
+    if(event[curr]->hasEvent==true){
+        QMessageBox::information(this,"Error!","不能重复添加事件！");
+    }
+    else{
+        qDebug()<<"confirm event: "<<endl;
+        eventwindow = new eventSet;
+        eventwindow->exec();
+
+        if (eventwindow->accepted == true)
+        {
+            event[curr]->hasEvent=true;
+            event[curr]->reinit();
+        }
+    }
+}
+void self_optimize_set::clickevent_4()
+{
+    int curr=3;
+    if(event[curr]->hasEvent==true){
+        QMessageBox::information(this,"Error!","不能重复添加事件！");
+    }
+    else{
+        qDebug()<<"confirm event: "<<endl;
+        eventwindow = new eventSet;
+        eventwindow->exec();
+
+        if (eventwindow->accepted == true)
+        {
+            event[curr]->hasEvent=true;
+            event[curr]->reinit();
+        }
+    }
+}
+void self_optimize_set::clickevent_5()
+{
+    int curr=4;
+    if(event[curr]->hasEvent==true){
+        QMessageBox::information(this,"Error!","不能重复添加事件！");
+    }
+    else{
+        qDebug()<<"confirm event: "<<endl;
+        eventwindow = new eventSet;
+        eventwindow->exec();
+
+        if (eventwindow->accepted == true)
+        {
+            event[curr]->hasEvent=true;
+            event[curr]->reinit();
+        }
     }
 }

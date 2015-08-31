@@ -17,9 +17,15 @@ public:
     explicit self_optimize_set(QWidget *parent = 0);
     ~self_optimize_set();
     eventSet *eventwindow;
+    int currentEvent;
 
 private slots:
-    void clickevent(int i);
+    void clickevent_1();
+    void clickevent_2();
+    void clickevent_3();
+    void clickevent_4();
+    void clickevent_5();
+
 
 private:
     Ui::self_optimize_set *ui;

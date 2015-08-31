@@ -11,6 +11,7 @@ public:
     eventButton(QWidget *parent = 0);
     ~eventButton(){return;}
     bool hasEvent;
+    void reinit();
 protected:
     virtual void enterEvent(QEvent* e);
     virtual void leaveEvent(QEvent* e);

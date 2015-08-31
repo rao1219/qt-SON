@@ -8,6 +8,20 @@ eventButton::eventButton(QWidget* parent)
     setStyleSheet("QPushButton{background: green;}");
     hasEvent=false;
 }
+
+void eventButton::reinit()
+{
+    if(hasEvent)
+    {
+        setText("已添加事件");
+        setStyleSheet("QPushButton{background: red;}");
+    }
+    else
+    {
+        setText("空闲");
+        setStyleSheet("QPushButton{background: green;}");
+    }
+}
 void eventButton::enterEvent(QEvent* e)
 {
     if(hasEvent)
