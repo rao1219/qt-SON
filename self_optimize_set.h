@@ -25,6 +25,8 @@ private slots:
     void clickevent_3();
     void clickevent_4();
     void clickevent_5();
+    void clickevent_6();
+    void clickevent_7();
 
 
 private:

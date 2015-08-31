@@ -30,6 +30,8 @@ self_optimize_set::self_optimize_set(QWidget *parent) :
     connect(event[2], SIGNAL(clicked()), this, SLOT(clickevent_3()));
     connect(event[3], SIGNAL(clicked()), this, SLOT(clickevent_4()));
     connect(event[4], SIGNAL(clicked()), this, SLOT(clickevent_5()));
+    connect(event[5], SIGNAL(clicked()), this, SLOT(clickevent_6()));
+    connect(event[6], SIGNAL(clicked()), this, SLOT(clickevent_7()));
 
 }
 
@@ -113,6 +115,42 @@ void self_optimize_set::clickevent_4()
 void self_optimize_set::clickevent_5()
 {
     int curr=4;
+    if(event[curr]->hasEvent==true){
+        QMessageBox::information(this,"Error!","不能重复添加事件！");
+    }
+    else{
+        qDebug()<<"confirm event: "<<endl;
+        eventwindow = new eventSet;
+        eventwindow->exec();
+
+        if (eventwindow->accepted == true)
+        {
+            event[curr]->hasEvent=true;
+            event[curr]->reinit();
+        }
+    }
+}
+void self_optimize_set::clickevent_6()
+{
+    int curr=5;
+    if(event[curr]->hasEvent==true){
+        QMessageBox::information(this,"Error!","不能重复添加事件！");
+    }
+    else{
+        qDebug()<<"confirm event: "<<endl;
+        eventwindow = new eventSet;
+        eventwindow->exec();
+
+        if (eventwindow->accepted == true)
+        {
+            event[curr]->hasEvent=true;
+            event[curr]->reinit();
+        }
+    }
+}
+void self_optimize_set::clickevent_7()
+{
+    int curr=6;
     if(event[curr]->hasEvent==true){
         QMessageBox::information(this,"Error!","不能重复添加事件！");
     }
