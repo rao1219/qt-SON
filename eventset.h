@@ -15,6 +15,9 @@ public:
     explicit eventSet(QWidget *parent = 0);
     ~eventSet();
 
+private slots:
+    void on_buttonBox_accepted(int);
+
 private:
     Ui::eventSet *ui;
 };
