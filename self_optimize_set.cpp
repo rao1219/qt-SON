@@ -54,6 +54,7 @@ void self_optimize_set::clickevent_1()
         if (eventwindow->accepted == true)
         {
             event[curr]->hasEvent=true;
+           // event[curr]->txt=
             event[curr]->reinit();
         }
     }
