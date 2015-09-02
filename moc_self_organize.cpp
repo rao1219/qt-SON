@@ -110,3 +110,5 @@ int self_organize::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     return _id;
 }
 QT_END_MOC_NAMESPACE
+
+
