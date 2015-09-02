@@ -54,7 +54,8 @@ void self_optimize_set::clickevent_1()
         if (eventwindow->accepted == true)
         {
             event[curr]->hasEvent=true;
-           // event[curr]->txt=
+            event[curr]->eventContent=eventwindow->eventitem;
+            event[curr]->serious=eventwindow->serious;
             event[curr]->reinit();
         }
     }
@@ -73,6 +74,8 @@ void self_optimize_set::clickevent_2()
         if (eventwindow->accepted == true)
         {
             event[curr]->hasEvent=true;
+            event[curr]->eventContent=eventwindow->eventitem;
+            event[curr]->serious=eventwindow->serious;
             event[curr]->reinit();
         }
     }
@@ -91,6 +94,8 @@ void self_optimize_set::clickevent_3()
         if (eventwindow->accepted == true)
         {
             event[curr]->hasEvent=true;
+            event[curr]->eventContent=eventwindow->eventitem;
+            event[curr]->serious=eventwindow->serious;
             event[curr]->reinit();
         }
     }
@@ -109,6 +114,8 @@ void self_optimize_set::clickevent_4()
         if (eventwindow->accepted == true)
         {
             event[curr]->hasEvent=true;
+            event[curr]->eventContent=eventwindow->eventitem;
+            event[curr]->serious=eventwindow->serious;
             event[curr]->reinit();
         }
     }
@@ -127,6 +134,8 @@ void self_optimize_set::clickevent_5()
         if (eventwindow->accepted == true)
         {
             event[curr]->hasEvent=true;
+            event[curr]->eventContent=eventwindow->eventitem;
+            event[curr]->serious=eventwindow->serious;
             event[curr]->reinit();
         }
     }
@@ -145,6 +154,8 @@ void self_optimize_set::clickevent_6()
         if (eventwindow->accepted == true)
         {
             event[curr]->hasEvent=true;
+            event[curr]->eventContent=eventwindow->eventitem;
+            event[curr]->serious=eventwindow->serious;
             event[curr]->reinit();
         }
     }
@@ -163,6 +174,8 @@ void self_optimize_set::clickevent_7()
         if (eventwindow->accepted == true)
         {
             event[curr]->hasEvent=true;
+            event[curr]->eventContent=eventwindow->eventitem;
+            event[curr]->serious=eventwindow->serious;
             event[curr]->reinit();
         }
     }

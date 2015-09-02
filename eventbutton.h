@@ -12,6 +12,9 @@ public:
     ~eventButton(){return;}
     bool hasEvent;
     void reinit();
+    QString eventContent;
+    int serious;
+
 protected:
     virtual void enterEvent(QEvent* e);
     virtual void leaveEvent(QEvent* e);

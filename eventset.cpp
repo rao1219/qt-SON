@@ -35,4 +35,6 @@ eventSet::~eventSet()
 void eventSet::on_buttonBox_accepted()
 {
     this->accepted=true;
+    this->eventitem=ui->comboBox->currentText();
+    this->serious=ui->comboBox_2->currentIndex();
 }

@@ -13,7 +13,7 @@ void eventButton::reinit()
 {
     if(hasEvent)
     {
-        setText("已添加事件");
+        setText(this->eventContent);
         setStyleSheet("QPushButton{background: red;}");
     }
     else
@@ -26,7 +26,7 @@ void eventButton::enterEvent(QEvent* e)
 {
     if(hasEvent)
     {
-        setText("已添加事件");
+        setText(this->eventContent);
         setStyleSheet("QPushButton{background: red;}");
     }
     else
@@ -39,7 +39,7 @@ void eventButton::leaveEvent(QEvent* e)
 {
     if(hasEvent)
     {
-        setText("已添加事件");
+        setText(this->eventContent);
         setStyleSheet("QPushButton{background: red;}");
     }
     else
