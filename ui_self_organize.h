@@ -58,3 +58,5 @@ namespace Ui {
 QT_END_NAMESPACE
 
 #endif // UI_SELF_ORGANIZE_H
+
+

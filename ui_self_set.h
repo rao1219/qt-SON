@@ -9,6 +9,7 @@
 #ifndef UI_SELF_SET_H
 #define UI_SELF_SET_H
 
+
 #include <QtCore/QVariant>
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>

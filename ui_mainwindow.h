@@ -308,6 +308,7 @@ public:
 
 };
 
+
 namespace Ui {
     class MainWindow: public Ui_MainWindow {};
 } // namespace Ui
@@ -315,3 +316,5 @@ namespace Ui {
 QT_END_NAMESPACE
 
 #endif // UI_MAINWINDOW_H
+
+
