@@ -13,6 +13,7 @@ public:
     bool satisfied;
     void init(int ap_label,double receivePower,double SINR,double wifiSpeed);
 
+
 };
 
 #endif // USER_H
