@@ -23,7 +23,8 @@ SOURCES += main.cpp\
     self_youhua.cpp \
     self_optimize_set.cpp \
     eventbutton.cpp \
-    eventset.cpp
+    eventset.cpp \
+    timer.cpp
 
 HEADERS  += mainwindow.h \
     self_set.h \
@@ -35,7 +36,8 @@ HEADERS  += mainwindow.h \
     self_youhua.h \
     self_optimize_set.h \
     eventbutton.h \
-    eventset.h
+    eventset.h \
+    timer.h
 
 FORMS    += mainwindow.ui \
     self_set.ui \

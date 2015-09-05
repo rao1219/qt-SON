@@ -6,6 +6,7 @@
 #include <graphicstest.h>
 #include <QListWidgetItem>
 #include <math.h>
+#include <QTimer>
 #include "ap.h"
 #include "dot.h"
 #include "set_algorithm.h"
@@ -30,6 +31,9 @@ public:
     self_optimize_set *self_organizeWindow;
     GraphicsTest *graTest;
     bool hasSet;
+    QTimer *timer;
+public slots:
+    void myslots();
 
 private slots:
     void on_tab_destroyed();

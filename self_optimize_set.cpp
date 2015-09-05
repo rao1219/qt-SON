@@ -2,6 +2,7 @@
 #include "ui_self_optimize_set.h"
 #include <QDebug>
 #include <QMessageBox>
+#include "timer.h"
 
 
 self_optimize_set::self_optimize_set(QWidget *parent) :
@@ -32,6 +33,9 @@ self_optimize_set::self_optimize_set(QWidget *parent) :
     connect(event[4], SIGNAL(clicked()), this, SLOT(clickevent_5()));
     connect(event[5], SIGNAL(clicked()), this, SLOT(clickevent_6()));
     connect(event[6], SIGNAL(clicked()), this, SLOT(clickevent_7()));
+
+    qDebug()<<"timer start";
+    timer mytime;
 
 }
 

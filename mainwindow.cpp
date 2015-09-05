@@ -8,6 +8,7 @@
 #define EXTRA 2*R+15
 #define DOT 10
 #define EXR 5.4
+#include "timer.h"
 
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -32,11 +33,18 @@ MainWindow::MainWindow(QWidget *parent) :
     out = "";
     m=1;n=0;
     qDebug()<<"---未来无线网络自优化演示软件平台---"<<endl;
+    timer = new QTimer(this);
+    connect(timer,SIGNAL(timeout()),this,SLOT(myslots()));
+    timer->start(1000);
 }
 
 MainWindow::~MainWindow()
 {
     delete ui;
+}
+void MainWindow::myslots()
+{
+    qDebug()<<"myslots";
 }
 
 void MainWindow::_addLineGraph()
