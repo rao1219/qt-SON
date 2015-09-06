@@ -11,7 +11,7 @@
 ###  图形界面:
 一个简单时间线上设有多个时间块，每个方块能添加事件。
 
-(https://github.com/rao1219/qt-SON/blob/master/image/screenshot/event.png)
+![事件管理器ui](https://github.com/rao1219/qt-SON/blob/master/image/screenshot/event.png)
 
 ###  终端输入:
 
