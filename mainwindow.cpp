@@ -33,9 +33,8 @@ MainWindow::MainWindow(QWidget *parent) :
     out = "";
     m=1;n=0;
     qDebug()<<"---未来无线网络自优化演示软件平台---"<<endl;
-    timer = new QTimer(this);
-    connect(timer,SIGNAL(timeout()),this,SLOT(myslots()));
-    timer->start(1000);
+
+    mytime.start_timer();
 }
 
 MainWindow::~MainWindow()

@@ -7,6 +7,7 @@
 #include <QListWidgetItem>
 #include <math.h>
 #include <QTimer>
+#include "timer.h"
 #include "ap.h"
 #include "dot.h"
 #include "set_algorithm.h"
@@ -31,7 +32,7 @@ public:
     self_optimize_set *self_organizeWindow;
     GraphicsTest *graTest;
     bool hasSet;
-    QTimer *timer;
+    timer mytime;
 public slots:
     void myslots();
 
