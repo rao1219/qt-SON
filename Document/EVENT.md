@@ -61,7 +61,7 @@ usr event remove [type] [start_time] [end_time]
 usr event
 `
 
-    
+
 
 
 
