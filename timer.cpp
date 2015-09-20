@@ -12,10 +12,10 @@ timer::timer()
 
 void timer::mySlots()
 {
-    qDebug()<<"timer excutted";
+    qDebug()<<eventContent;
 }
 
 void timer::start_timer()
 {
-    _timer->start(1000);
+    _timer->start(10000);
 }

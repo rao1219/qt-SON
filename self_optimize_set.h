@@ -18,6 +18,7 @@ public:
     ~self_optimize_set();
     eventSet *eventwindow;
     int currentEvent;
+    eventButton *event[10];
 
 private slots:
     void clickevent_1();
@@ -31,7 +32,7 @@ private slots:
 
 private:
     Ui::self_optimize_set *ui;
-    eventButton *event[10];
+
 
 };
 

@@ -12,15 +12,10 @@ eventSet::eventSet(QWidget *parent) :
     bgpal.setColor (QPalette::Foreground, QColor(255,255,255,255));
     setPalette (bgpal);
     this->accepted=false;
-    ui->comboBox->addItem("event1");
-    ui->comboBox->addItem("event2");
-    ui->comboBox->addItem("event3");
-    ui->comboBox->addItem("event4");
-    ui->comboBox->addItem("event5");
-    ui->comboBox->addItem("event6");
-    ui->comboBox->addItem("event7");
-    ui->comboBox->addItem("event8");
-    ui->comboBox->addItem("event9");
+    ui->comboBox->addItem("某区域内用户数量突然增大");
+    ui->comboBox->addItem("某区域内用户数量突然减小");
+    ui->comboBox->addItem("某区域内用户信号突然变差");
+    ui->comboBox->addItem("某区域AP的频率异常改变");
 
     ui->comboBox_2->addItem("轻微");
     ui->comboBox_2->addItem("正常");

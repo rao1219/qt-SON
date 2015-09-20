@@ -34,7 +34,6 @@ MainWindow::MainWindow(QWidget *parent) :
     m=1;n=0;
     qDebug()<<"---未来无线网络自优化演示软件平台---"<<endl;
 
-    mytime.start_timer();
 }
 
 MainWindow::~MainWindow()
@@ -180,7 +179,17 @@ void MainWindow::on_pushButton_2_clicked()
         }
 
         _addLineGraph();
+
+        for(int i=0;i<7;i++){
+
+            if(self_organizeWindow->event[i]->hasEvent == true){
+                mytime[i].eventContent=self_organizeWindow->event[i]->eventContent;
+                mytime[i].start_timer();
+            }
+        }
+
     }
+
 
 }
 

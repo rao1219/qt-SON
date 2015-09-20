@@ -32,7 +32,7 @@ public:
     self_optimize_set *self_organizeWindow;
     GraphicsTest *graTest;
     bool hasSet;
-    timer mytime;
+    timer mytime[10];
 public slots:
     void myslots();
 
