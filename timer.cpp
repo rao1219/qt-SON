@@ -6,7 +6,7 @@ timer::timer()
 {
     _timer =  new QTimer();
     connect(_timer,SIGNAL(timeout()),this,SLOT(mySlots()));
-    qDebug()<<"time here";
+    qDebug()<<"timer start";
 
 }
 
@@ -17,5 +17,5 @@ void timer::mySlots()
 
 void timer::start_timer()
 {
-    _timer->start(10000);
+    _timer->start(6000);
 }
