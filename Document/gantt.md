@@ -1,4 +1,6 @@
-
+# 时间安排
+-----
+![gantt](https://github.com/rao1219/qt-SON/blob/master/image/gantt.png)
 
 ```
 gantt
