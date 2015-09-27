@@ -17,6 +17,7 @@ public:
     bool accepted;
     QString eventitem;
     int serious;
+    int eventType;
 
 private slots:
     void on_buttonBox_accepted();

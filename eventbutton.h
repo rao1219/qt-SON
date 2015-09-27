@@ -14,6 +14,7 @@ public:
     void reinit();
     QString eventContent;
     int serious;
+    int eventType;
 
 protected:
     virtual void enterEvent(QEvent* e);

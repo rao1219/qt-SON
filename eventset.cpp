@@ -1,5 +1,6 @@
 #include "eventset.h"
 #include "ui_eventset.h"
+#include <QDebug>
 
 eventSet::eventSet(QWidget *parent) :
     QDialog(parent),
@@ -12,14 +13,15 @@ eventSet::eventSet(QWidget *parent) :
     bgpal.setColor (QPalette::Foreground, QColor(255,255,255,255));
     setPalette (bgpal);
     this->accepted=false;
-    ui->comboBox->addItem("某区域内用户数量突然增大");
-    ui->comboBox->addItem("某区域内用户数量突然减小");
-    ui->comboBox->addItem("某区域内用户信号突然变差");
-    ui->comboBox->addItem("某区域AP的频率异常改变");
+    ui->comboBox->addItem("User number increases suddenly in some area.");
+    ui->comboBox->addItem("User number decreases suddenly in some area.");
+    ui->comboBox->addItem("Signals dies away suddenly in some area.");
+    ui->comboBox->addItem("AP's frequency changes suddenly in some area");
 
     ui->comboBox_2->addItem("轻微");
     ui->comboBox_2->addItem("正常");
     ui->comboBox_2->addItem("严重");
+
 }
 
 eventSet::~eventSet()
@@ -32,4 +34,6 @@ void eventSet::on_buttonBox_accepted()
     this->accepted=true;
     this->eventitem=ui->comboBox->currentText();
     this->serious=ui->comboBox_2->currentIndex();
+    this->eventType=ui->comboBox->currentIndex();
+
 }

@@ -17,6 +17,7 @@ self_optimize_set::self_optimize_set(QWidget *parent) :
     setPalette (bgpal);
     for(int i=0;i<9;i++){
         event[i] = new eventButton;
+
     }
     ui->verticalLayout->addWidget(event[0]);
     ui->verticalLayout_2->addWidget(event[1]);
@@ -60,6 +61,7 @@ void self_optimize_set::clickevent_1()
             event[curr]->hasEvent=true;
             event[curr]->eventContent=eventwindow->eventitem;
             event[curr]->serious=eventwindow->serious;
+            event[curr]->eventType=eventwindow->eventType;
             event[curr]->reinit();
         }
     }
@@ -80,6 +82,7 @@ void self_optimize_set::clickevent_2()
             event[curr]->hasEvent=true;
             event[curr]->eventContent=eventwindow->eventitem;
             event[curr]->serious=eventwindow->serious;
+            event[curr]->eventType=eventwindow->eventType;
             event[curr]->reinit();
         }
     }
@@ -100,6 +103,7 @@ void self_optimize_set::clickevent_3()
             event[curr]->hasEvent=true;
             event[curr]->eventContent=eventwindow->eventitem;
             event[curr]->serious=eventwindow->serious;
+            event[curr]->eventType=eventwindow->eventType;
             event[curr]->reinit();
         }
     }
@@ -120,6 +124,7 @@ void self_optimize_set::clickevent_4()
             event[curr]->hasEvent=true;
             event[curr]->eventContent=eventwindow->eventitem;
             event[curr]->serious=eventwindow->serious;
+            event[curr]->eventType=eventwindow->eventType;
             event[curr]->reinit();
         }
     }
@@ -140,6 +145,7 @@ void self_optimize_set::clickevent_5()
             event[curr]->hasEvent=true;
             event[curr]->eventContent=eventwindow->eventitem;
             event[curr]->serious=eventwindow->serious;
+            event[curr]->eventType=eventwindow->eventType;
             event[curr]->reinit();
         }
     }
@@ -160,6 +166,7 @@ void self_optimize_set::clickevent_6()
             event[curr]->hasEvent=true;
             event[curr]->eventContent=eventwindow->eventitem;
             event[curr]->serious=eventwindow->serious;
+            event[curr]->eventType=eventwindow->eventType;
             event[curr]->reinit();
         }
     }
@@ -180,6 +187,7 @@ void self_optimize_set::clickevent_7()
             event[curr]->hasEvent=true;
             event[curr]->eventContent=eventwindow->eventitem;
             event[curr]->serious=eventwindow->serious;
+            event[curr]->eventType=eventwindow->eventType;
             event[curr]->reinit();
         }
     }

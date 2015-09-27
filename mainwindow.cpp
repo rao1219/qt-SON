@@ -183,7 +183,9 @@ void MainWindow::on_pushButton_2_clicked()
         for(int i=0;i<7;i++){
 
             if(self_organizeWindow->event[i]->hasEvent == true){
+                mytime[i].eventType=self_organizeWindow->event[i]->eventType;
                 mytime[i].eventContent=self_organizeWindow->event[i]->eventContent;
+                qDebug()<<i<<"type:"<<mytime[i].eventType;
                 mytime[i].start_timer();
             }
         }

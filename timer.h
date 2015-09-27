@@ -9,6 +9,7 @@ class timer : public QObject
 public:
     timer();
     QString eventContent;
+    int eventType;
 
     QTimer *_timer;
     void start_timer();
