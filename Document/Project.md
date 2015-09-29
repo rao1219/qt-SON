@@ -16,6 +16,8 @@
 | ------------- |:-------------:|
 | 边缘检测算法  | [思路]()   |   
 | 差分进化      | [思路]()   |   
+| 自配置和自优化算法      | [思路](https://github.com/rao1219/qt-SON/blob/master/Document/algorithm.md)   |   
+
 
 ----
 
