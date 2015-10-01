@@ -5,6 +5,7 @@
 
 | 日期        | 内容   | 
 | --------   | -----:  | 
+| 10-2        | [相关字段信息](https://github.com/rao1219/qt-SON/blob/master/Document/naming.md)        |
 | 9-27        | [后续论文安排](https://github.com/rao1219/qt-SON/blob/master/Document/gantt.md)   |  
 | 9-1     | [事件管理器](https://github.com/rao1219/qt-SON/blob/master/Document/EVENT.md) |
 
