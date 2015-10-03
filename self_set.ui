@@ -108,6 +108,15 @@ background-color: rgb(87, 16, 16);
       <height>17</height>
      </rect>
     </property>
+    <property name="toolTip">
+     <string comment="test tool dis" extracomment="test commemts">testtool</string>
+    </property>
+    <property name="toolTipDuration">
+     <number>1</number>
+    </property>
+    <property name="statusTip">
+     <string>test status</string>
+    </property>
     <property name="text">
      <string>通信最小信号强度：</string>
     </property>
@@ -242,6 +251,9 @@ background-color: rgb(87, 16, 16);
       <width>105</width>
       <height>20</height>
      </rect>
+    </property>
+    <property name="toolTip">
+     <string extracomment="test tool tip">test tool tip</string>
     </property>
     <property name="text">
      <string>路损模型参数：</string>

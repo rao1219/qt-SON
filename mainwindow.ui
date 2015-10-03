@@ -122,6 +122,9 @@ p, li { white-space: pre-wrap; }
         <height>591</height>
        </rect>
       </property>
+      <property name="toolTip">
+       <string>testtool</string>
+      </property>
      </widget>
      <widget class="QScrollBar" name="horizontalScrollBar">
       <property name="geometry">

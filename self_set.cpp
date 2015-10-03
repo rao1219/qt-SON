@@ -26,6 +26,14 @@ self_set::self_set(QWidget *parent) :
     //设置QTextEdit背景色
     palette.setBrush(QPalette::Active, QPalette::Base, QBrush(Qt::red));
     ui->line->setPalette(palette);
+    ui->label_4->setToolTip("testtool");
+    ui->label->setToolTip("基站在使用中可以调到的最大功率");
+    ui->label_2->setToolTip("满足用户正常通信的最小信号强度，当信号小于这个值时，用户不能正常通信，不同的业务有着不同的最小信号强度");
+    ui->label_14->setToolTip("满足用户正常通信的最小信干比");
+    ui->label_15->setToolTip("接收信号强度/干扰信号强度");
+    ui->label_11->setToolTip("可以通信区域的面积/总区域的面积");
+    ui->radioButton->setToolTip("整个区域的平均SINR最小");
+    ui->radioButton_2->setToolTip("能效比=S/P和");
 }
 
 self_set::~self_set()
