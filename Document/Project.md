@@ -27,6 +27,13 @@
 [代码在这](https://github.com/rao1219/qt-SON)
 
 Very Simple qt server project
+
+|         |            |
+| ------------- |:-------------:|
+| UI优化  | [增加自配置页面鼠标提示](https://github.com/rao1219/qt-SON/commit/72e8ef763f1d9d2f527db4be03f77ec54262727f)   |   
+
+
+
 ##### version-1.0 2015-7-23
 ### 更新内容：
 > * 界面、框架
