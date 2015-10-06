@@ -1,3 +1,15 @@
+commit 44ad7da3a989091f7abd9abd86874a160491ebad
+Author: rao1219 <441718399@qq.com>
+Date:   Tue Oct 6 18:36:11 2015 +0800
+
+    自配置基站信息显示
+
+commit bacbbe5ddc1632dd38aeba198c85df104a5024c8
+Author: rao1219 <441718399@qq.com>
+Date:   Tue Oct 6 17:25:24 2015 +0800
+
+    基站信息的轮子
+
 commit 9c2197f442cdf9d88e3f3a5d462f780dc07a4fe6
 Author: rao1219 <441718399@qq.com>
 Date:   Tue Oct 6 01:30:34 2015 +0800

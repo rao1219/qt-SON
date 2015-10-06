@@ -191,12 +191,26 @@ void MainWindow::on_pushButton_2_clicked()
             AP *temp = setYouhua->default_aplist.at(i);
          //   qDebug()<<"x,y:"<<temp->x()<<" "<<temp->y()<<endl;
 
+            QString apContent= NULL;
+
             if(temp->frequency==1)
-                this->scene->addEllipse(temp->x(),temp->y(),(setYouhua->defalt_ratio)*EXR,(setYouhua->defalt_ratio)*EXR,blackPen,blueBrush);
+            {
+                tmp=this->scene->addEllipse(temp->x(),temp->y(),(setAlgo->ratio)*EXR,(setAlgo->ratio)*EXR,blackPen,blueBrush);
+                apContent="<html><h1><font color='red'>基站信息</font></h1><font color='green'>基站频率："+QString::number(temp->frequency)+"</font><br><font color='green'>基站功率："+QString::number(temp->power)+"</font></html>";
+                tmp->setToolTip(apContent);
+            }
             else if(temp->frequency==6)
-                this->scene->addEllipse(temp->x(),temp->y(),(setYouhua->defalt_ratio)*EXR,(setYouhua->defalt_ratio)*EXR,blackPen,redBrush);
+            {
+                tmp=this->scene->addEllipse(temp->x(),temp->y(),(setAlgo->ratio)*EXR,(setAlgo->ratio)*EXR,blackPen,redBrush);
+                apContent="<html><h1><font color='red'>基站信息</font></h1><font color='green'>基站频率："+QString::number(temp->frequency)+"</font><br><font color='green'>基站功率："+QString::number(temp->power)+"</font></html>";
+                tmp->setToolTip(apContent);
+            }
             else if(temp->frequency==11)
-                this->scene->addEllipse(temp->x(),temp->y(),(setYouhua->defalt_ratio)*EXR,(setYouhua->defalt_ratio)*EXR,blackPen,yellowBrush);
+            {
+                tmp=this->scene->addEllipse(temp->x(),temp->y(),(setAlgo->ratio)*EXR,(setAlgo->ratio)*EXR,blackPen,yellowBrush);
+                apContent="<html><h1><font color='red'>基站信息</font></h1><font color='green'>基站频率："+QString::number(temp->frequency)+"</font><br><font color='green'>基站功率："+QString::number(temp->power)+"</font></html>";
+                tmp->setToolTip(apContent);
+            }
         }
 
         _addLineGraph();
