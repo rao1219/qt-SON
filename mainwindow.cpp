@@ -126,21 +126,25 @@ void MainWindow::on_pushButton_clicked()
         for(int i=0;i<setAlgo->apList.size();i++){
             AP *temp = setAlgo->apList.at(i);
             qDebug()<<"x,y:"<<temp->x()<<" "<<temp->y()<<endl;
+            QString apContent= NULL;
 
             if(temp->frequency==1)
             {
                 tmp=this->scene->addEllipse(temp->x(),temp->y(),(setAlgo->ratio)*EXR,(setAlgo->ratio)*EXR,blackPen,blueBrush);
-                tmp->setToolTip("<html><font color='red'>green</font></html>");
+                apContent="<html><h1><font color='red'>基站信息</font></h1><font color='green'>基站频率："+QString::number(temp->frequency)+"</font><br><font color='green'>基站功率："+QString::number(temp->power)+"</font></html>";
+                tmp->setToolTip(apContent);
             }
             else if(temp->frequency==6)
             {
                 tmp=this->scene->addEllipse(temp->x(),temp->y(),(setAlgo->ratio)*EXR,(setAlgo->ratio)*EXR,blackPen,redBrush);
-                tmp->setToolTip("<html><font color='red'>blue</font></html>");
+                apContent="<html><h1><font color='red'>基站信息</font></h1><font color='green'>基站频率："+QString::number(temp->frequency)+"</font><br><font color='green'>基站功率："+QString::number(temp->power)+"</font></html>";
+                tmp->setToolTip(apContent);
             }
             else if(temp->frequency==11)
             {
                 tmp=this->scene->addEllipse(temp->x(),temp->y(),(setAlgo->ratio)*EXR,(setAlgo->ratio)*EXR,blackPen,yellowBrush);
-                tmp->setToolTip("<html><font color='red'>red</font></html>");
+                apContent="<html><h1><font color='red'>基站信息</font></h1><font color='green'>基站频率："+QString::number(temp->frequency)+"</font><br><font color='green'>基站功率："+QString::number(temp->power)+"</font></html>";
+                tmp->setToolTip(apContent);
             }
         }
     }
