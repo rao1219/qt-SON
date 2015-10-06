@@ -1,0 +1,616 @@
+commit 9c2197f442cdf9d88e3f3a5d462f780dc07a4fe6
+Author: rao1219 <441718399@qq.com>
+Date:   Tue Oct 6 01:30:34 2015 +0800
+
+    mainwindow下增加基站位置显示
+
+commit 5297946c56571929ba903e125c4016984c4ae558
+Author: rao1219 <441718399@qq.com>
+Date:   Mon Oct 5 01:33:59 2015 +0800
+
+    edit doc
+
+commit a4b4371b6fae2115f227826ed5aed27cee3151e4
+Author: rao1219 <441718399@qq.com>
+Date:   Mon Oct 5 00:20:25 2015 +0800
+
+    add paper-chafen
+
+commit 646221aa9656c542b0f90b16eec4476bb3ae7a77
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Oct 4 16:46:43 2015 +0800
+
+    add LICENSE
+
+commit c4dbda50eb1ab1b9d39ffa5c6e97a9f189347734
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Oct 4 16:45:39 2015 +0800
+
+    添加LICENSE
+
+commit acf58bff9672bf66a4aca80ea3d91bc15911642f
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Oct 4 15:59:34 2015 +0800
+
+    up
+
+commit 7daeaea9e32e032b93ddf6f5eb72d9af6a313759
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Oct 4 15:59:02 2015 +0800
+
+    up
+
+commit 610ac6ce7a4a3d79f1b9b663868633a1bde5b477
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Oct 4 15:58:33 2015 +0800
+
+    up
+
+commit 99d0355a40d7ee3ec29890cb8e95fe9f75e5e815
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Oct 4 15:57:57 2015 +0800
+
+    del
+
+commit a61b18d6babfba475b6e8f3fd61f8f79079fdfa4
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Oct 4 15:56:51 2015 +0800
+
+    up
+
+commit 744402b4cbc018c234936db11aba6375ba345b85
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Oct 4 15:55:37 2015 +0800
+
+    增加数据挖掘资料
+
+commit 1d45f47a9b2a0e768b8279188aace120c2a35132
+Author: rao1219 <441718399@qq.com>
+Date:   Sat Oct 3 18:22:37 2015 +0800
+
+    delete
+
+commit b09df07762b4e3b481361696da11eecb38110def
+Author: rao1219 <441718399@qq.com>
+Date:   Sat Oct 3 17:58:05 2015 +0800
+
+    添加了wifi用户的数据文件
+
+commit 87c6efe17ef3301dfef8130ce676083e022e1532
+Author: raoqi <441718399@qq.com>
+Date:   Sat Oct 3 13:26:55 2015 +0800
+
+    Update Project.md
+
+commit 72e8ef763f1d9d2f527db4be03f77ec54262727f
+Author: rao1219 <441718399@qq.com>
+Date:   Sat Oct 3 13:13:13 2015 +0800
+
+    增加自配置页面鼠标提示
+
+commit 246e15b6c9199e7ab612a2d14e6283215140a8b0
+Author: raoqi <441718399@qq.com>
+Date:   Sat Oct 3 13:07:03 2015 +0800
+
+    Update naming.md
+
+commit 463d08dc07fee2b9101a4563a5fcdc104baff989
+Author: raoqi <441718399@qq.com>
+Date:   Sat Oct 3 13:05:41 2015 +0800
+
+    Update naming.md
+
+commit fb6f529c0b720be703081afb1dcc5df9ce2ed8e5
+Author: raoqi <441718399@qq.com>
+Date:   Sat Oct 3 13:00:01 2015 +0800
+
+    Update naming.md
+
+commit 65911eaaaa40ab35bb744fb3b737d3df6cbb1d07
+Merge: 9e83e19 5d7b7a1
+Author: rao1219 <441718399@qq.com>
+Date:   Fri Oct 2 01:15:48 2015 +0800
+
+    Merge branch 'master' of github.com:rao1219/qt-SON into dev
+
+commit 9e83e197f67264dd0f44ed8958cc554156263ab3
+Author: rao1219 <441718399@qq.com>
+Date:   Fri Oct 2 01:14:41 2015 +0800
+
+    edit
+
+commit 5d7b7a1df31bfee5ac6c306277da67b06460f733
+Author: raoqi <441718399@qq.com>
+Date:   Fri Oct 2 00:59:07 2015 +0800
+
+    Update Project.md
+
+commit 5a5ad654835d396d90fca00f53a8cebe43f69f12
+Author: raoqi <441718399@qq.com>
+Date:   Fri Oct 2 00:54:45 2015 +0800
+
+    Create naming.md
+
+commit 4a7320d9d805b3b8c4350d52474222f6fec6f5d5
+Author: raoqi <441718399@qq.com>
+Date:   Wed Sep 30 00:48:37 2015 +0800
+
+    Update Project.md
+
+commit d78544d72d4c51ab8d09c985b3b916ce93e511f4
+Author: raoqi <441718399@qq.com>
+Date:   Wed Sep 30 00:46:57 2015 +0800
+
+    Create algorithm.md
+
+commit a65f2c59e5f83105e20ffed80dbc298e617af6f7
+Merge: f9ccdb8 f46ec85
+Author: rao1219 <441718399@qq.com>
+Date:   Tue Sep 29 20:57:06 2015 +0800
+
+    Merge branch 'master' of github.com:rao1219/qt-SON
+
+commit f9ccdb8a9dd3d11229c19a1a64760774d3a6c016
+Author: rao1219 <441718399@qq.com>
+Date:   Tue Sep 29 20:56:44 2015 +0800
+
+    edit data source
+
+commit f46ec859c3e496376ccc8da71515350351d6798b
+Author: raoqi <441718399@qq.com>
+Date:   Sun Sep 27 21:04:21 2015 +0800
+
+    Create Project.md
+
+commit fc389b778f8d99ed2c8bf5498373553ff91a269e
+Merge: 925d85b 8f7601e
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Sep 27 20:16:14 2015 +0800
+
+    Merge branch 'master' of github.com:rao1219/qt-SON
+
+commit 925d85b0a3cdff00332d9feb1b60f12e64cd7dc0
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Sep 27 20:15:45 2015 +0800
+
+    解决json乱码
+
+commit 8f7601e5e9b25a22f39fbf4a6609c81a87fa80b0
+Author: raoqi <441718399@qq.com>
+Date:   Fri Sep 25 21:07:26 2015 +0800
+
+    Update gantt.md
+
+commit c70c262923430f41f3b59bc80b8df022659c997b
+Author: rao1219 <441718399@qq.com>
+Date:   Fri Sep 25 21:05:24 2015 +0800
+
+    add gantt
+
+commit ea156bab7c640d95c35727a8c83fc9bab57fe992
+Author: raoqi <441718399@qq.com>
+Date:   Fri Sep 25 21:01:23 2015 +0800
+
+    Update gantt.md
+
+commit 426aa4ac7b3fa24a92143707851c5d45beffff5b
+Author: raoqi <441718399@qq.com>
+Date:   Fri Sep 25 20:36:12 2015 +0800
+
+    Create gantt.md
+
+commit b2d7288dd754568d445b44e914a887e17e1b5d5e
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Sep 20 16:46:23 2015 +0800
+
+    update event
+
+commit 67ff822249600e036ebbb4ea083d707a10517cca
+Author: rao1219 <441718399@qq.com>
+Date:   Tue Sep 8 10:01:24 2015 +0800
+
+    up
+
+commit c9b5c8bf6c878577e5b06efe26cc9f541fff1b6d
+Author: raoqi <441718399@qq.com>
+Date:   Mon Sep 7 23:09:14 2015 +0800
+
+    Update course.md
+
+commit b38307f6720c6493650a5e54f9a10543f2adc352
+Author: raoqi <441718399@qq.com>
+Date:   Mon Sep 7 22:41:34 2015 +0800
+
+    Update course.md
+
+commit 69a9d320195454a97769620b21edbab81fa72c8f
+Author: rao1219 <441718399@qq.com>
+Date:   Mon Sep 7 22:40:10 2015 +0800
+
+    add course
+
+commit b490930a004b45239d3e113f050ccc1d409c20b6
+Merge: b4b1d19 7c12373
+Author: rao1219 <441718399@qq.com>
+Date:   Mon Sep 7 22:38:29 2015 +0800
+
+    Merge branch 'master' of github.com:rao1219/qt-SON
+
+commit b4b1d19094b223d4fd47fda53ede1233908f2077
+Author: rao1219 <441718399@qq.com>
+Date:   Mon Sep 7 22:38:13 2015 +0800
+
+    add course
+
+commit 7c123737d737f9c3042645639f501e2ff8ee5b7b
+Author: raoqi <441718399@qq.com>
+Date:   Sun Sep 6 23:43:00 2015 +0800
+
+    Update EVENT.md
+
+commit 56c811b843ea908e147730cd67b753a151ebe654
+Author: raoqi <441718399@qq.com>
+Date:   Sun Sep 6 22:50:53 2015 +0800
+
+    Update EVENT.md
+
+commit 6b2fd9565e5836f73c4ac6abf0031fd1a0f6e008
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Sep 6 22:48:19 2015 +0800
+
+    add image
+
+commit 76a751e177490ae56e465e0f8788783a04781175
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Sep 6 22:46:04 2015 +0800
+
+    add resource
+
+commit 7a65597028ab5269994dd4e0e3ad293b0c7752c6
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Sep 6 22:32:02 2015 +0800
+
+    add event doc
+
+commit 26f8ab1cb0ddc92d83f21a4cb5f0e42154cba8ac
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Sep 6 22:12:19 2015 +0800
+
+    add event doc
+
+commit ce88320d20366c7c2a30f67dd569377c5f484bf9
+Author: rao1219 <441718399@qq.com>
+Date:   Sat Sep 5 12:04:47 2015 +0800
+
+    update timer
+
+commit ab22f428940e711ac40a90e88c9f2a44575d7c0e
+Author: rao1219 <441718399@qq.com>
+Date:   Fri Sep 4 22:34:02 2015 +0800
+
+    up
+
+commit 7e2d947eb2875c8429e9cac2e4f4b13747b20907
+Author: rao1219 <441718399@qq.com>
+Date:   Thu Sep 3 16:29:50 2015 +0800
+
+    up
+
+commit 1323df9183354012ddc6eb9fc8163218a911b9f4
+Author: rao1219 <441718399@qq.com>
+Date:   Wed Sep 2 23:07:19 2015 +0800
+
+    FUCKED a BUG
+
+commit 020e6ca1d4b27f5e745b0381c952017842fc6849
+Author: rao1219 <441718399@qq.com>
+Date:   Wed Sep 2 20:49:01 2015 +0800
+
+    Fucked a bug
+
+commit ab66969cf0c0a90c5457eac827bfd58ebeb98eed
+Author: rao1219 <441718399@qq.com>
+Date:   Wed Sep 2 15:59:51 2015 +0800
+
+    update eventbutton.cpp
+
+commit 4426300456e79014253378762115443ab0c8a9ac
+Author: rao1219 <441718399@qq.com>
+Date:   Wed Sep 2 15:43:17 2015 +0800
+
+    update eventbutton
+
+commit 4217b3a6f732e63ef905511fe544afeb7e9e534e
+Author: rao1219 <441718399@qq.com>
+Date:   Wed Sep 2 13:32:13 2015 +0800
+
+    delete
+
+commit 420bc540f4dd7cc730831ef18472ab5f01463ce7
+Author: rao1219 <441718399@qq.com>
+Date:   Tue Sep 1 21:16:49 2015 +0800
+
+    delete img
+
+commit 44cd6d984e3b0a41cdd9805cca374c30fbc2fd90
+Author: rao1219 <441718399@qq.com>
+Date:   Tue Sep 1 00:03:24 2015 +0800
+
+    update event num
+
+commit 8399a95873bcdf53744847291b3eb2b792bc6185
+Author: rao1219 <441718399@qq.com>
+Date:   Mon Aug 31 23:34:05 2015 +0800
+
+    bug fixed. finish eventmanager
+
+commit 568fdfea9f891b023619116abe0bc4f724ba7511
+Author: rao1219 <441718399@qq.com>
+Date:   Mon Aug 31 20:03:16 2015 +0800
+
+    event manager,still bug..
+
+commit 3177b02709271782e0779a83ce95bc3a30c2400b
+Author: rao1219 <441718399@qq.com>
+Date:   Mon Aug 31 18:53:23 2015 +0800
+
+    add button event
+
+commit 5d6aa915db8a003f285bf4e632da1cb2edec9927
+Author: rao1219 <441718399@qq.com>
+Date:   Mon Aug 31 14:51:05 2015 +0800
+
+    update readme
+
+commit 36285bf13d35e6c370a65fa49ad583f9a6c43aa8
+Author: rao1219 <441718399@qq.com>
+Date:   Mon Aug 31 14:32:36 2015 +0800
+
+    upup
+
+commit 0b6fe116ae1d5c9575afe4211357ab0ebc80dfbc
+Author: rao1219 <441718399@qq.com>
+Date:   Mon Aug 31 11:27:39 2015 +0800
+
+    upup
+
+commit bd9c92a4dc6fe523f0b6b6f7591ffba13107ed73
+Author: rao1219 <441718399@qq.com>
+Date:   Mon Aug 31 11:13:20 2015 +0800
+
+    bug not happly
+
+commit a7fb96129ef3e74e54d46faea652456bbd445715
+Author: rao1219 <441718399@qq.com>
+Date:   Mon Aug 31 00:42:10 2015 +0800
+
+    update readme
+
+commit 7903e01583aac8cd2301c57b88dcc09b1e7457db
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Aug 30 15:11:40 2015 +0800
+
+    delete tt
+
+commit d6b35606a29135fd10dfe2cd13eb2c015a9fb7a9
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Aug 30 15:10:50 2015 +0800
+
+    tt third
+
+commit ac5afdd0e66bdf09e30b639bffa67fc12d9b24db
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Aug 30 15:09:46 2015 +0800
+
+    second tt
+
+commit 7c1587a98810655cab66eed0dc6aaae00dc8ef07
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Aug 30 15:08:49 2015 +0800
+
+    tttest
+
+commit fdb0ebc4d830349b0a763bc8b4f53706571e4954
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Aug 30 15:04:56 2015 +0800
+
+    add event manager
+
+commit 6b9fce403b665e6822f0e7336d51d5884646aece
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Aug 30 14:54:44 2015 +0800
+
+    update eventmanager
+
+commit 251b31105e691ff9e0734615e10c584612915e82
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Aug 30 10:55:36 2015 +0800
+
+    upup
+
+commit a9f48ce821a6b827c2b07efff910d3f946c0d07e
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Aug 30 10:49:18 2015 +0800
+
+    update readme
+
+commit 5968e77e137618a5c2fafae32bece9b1cf09fb21
+Author: rao1219 <441718399@qq.com>
+Date:   Sun Aug 30 10:47:04 2015 +0800
+
+    update
+
+commit 08ff292267d5927fd62a635bf347439978e26ea3
+Author: rao1219 <441718399@qq.com>
+Date:   Sat Aug 29 21:11:32 2015 +0800
+
+    update makefile
+
+commit 5545ba93091a3636b95f9ce9afcf4dde6fffbc71
+Author: rao1219 <441718399@qq.com>
+Date:   Sat Aug 29 21:05:05 2015 +0800
+
+    update button
+
+commit dd3fccbeddf1c9d395f66b9596dce08c7766a94a
+Author: rao1219 <441718399@qq.com>
+Date:   Sat Aug 29 00:22:11 2015 +0800
+
+    update readme
+
+commit 90109cb6b31efb997a17dd129bff8bbd17eb2202
+Author: rao1219 <441718399@qq.com>
+Date:   Sat Aug 29 00:18:07 2015 +0800
+
+    update readme
+
+commit 8475c1e1f1c3f577aaca9de78afecf68f78bdefe
+Author: rao1219 <441718399@qq.com>
+Date:   Sat Aug 29 00:13:33 2015 +0800
+
+    update readme
+
+commit 920e723caf7175a4b6044388bbbd437e116276c1
+Author: rao1219 <441718399@qq.com>
+Date:   Fri Aug 28 17:08:30 2015 +0800
+
+    add event manager
+
+commit d22ed0717d6d41ee423b1190f2ec8ddcfc510805
+Author: rao1219 <441718399@qq.com>
+Date:   Fri Aug 28 09:02:18 2015 +0800
+
+    bug fixed
+
+commit 49e1c17ca34fa9125fc6232a291d6318a1af36aa
+Author: rainbowrao <441718399@qq.com>
+Date:   Mon Aug 10 16:18:01 2015 +0800
+
+    更新后期任务分工
+
+commit b47956c06b9a33bb16d670a544991be0bbf1e59c
+Author: rainbowrao <441718399@qq.com>
+Date:   Mon Aug 10 00:30:06 2015 +0800
+
+    bugfixed
+
+commit 53f2aee69a6cdf90fb8d1406910d3a8d125d9f83
+Author: rainbowrao <441718399@qq.com>
+Date:   Sat Aug 8 01:23:42 2015 +0800
+
+    自优化三种算法更新
+
+commit f8aaf68de4ad4d593378a06844a4ace15775caf6
+Author: rainbowrao <441718399@qq.com>
+Date:   Sat Aug 8 01:09:20 2015 +0800
+
+    三种自优化算法完成
+
+commit fbf9e200fdb50c46efeecabb5c1e59ccc28059e8
+Author: rainbowrao <441718399@qq.com>
+Date:   Fri Aug 7 21:47:58 2015 +0800
+
+    edit youhua
+
+commit b4fc292078e8c6592922e34e005e95dce1a448a4
+Author: rainbowrao <441718399@qq.com>
+Date:   Fri Aug 7 21:45:22 2015 +0800
+
+    edit youhua
+
+commit 811e97317afe7d5aae743a5c79c171346a615c9c
+Author: rainbowrao <441718399@qq.com>
+Date:   Fri Aug 7 20:30:04 2015 +0800
+
+    ~edit
+
+commit d897d77145b492953436cef8855d295f71047207
+Author: rainbowrao <441718399@qq.com>
+Date:   Fri Aug 7 16:22:34 2015 +0800
+
+    开始自优化
+
+commit 2e61f0e2965c123f76dbdf008739014528e2995c
+Author: rainbowrao <441718399@qq.com>
+Date:   Fri Aug 7 13:46:30 2015 +0800
+
+    edit~
+
+commit 85a221637a98e99f900ed46314e7de00f2cfbdb9
+Author: rainbowrao <441718399@qq.com>
+Date:   Fri Aug 7 03:35:59 2015 +0800
+
+    edit
+
+commit 6db50056ea89656bdb6101d008f9f2302bc17e83
+Author: rainbowrao <441718399@qq.com>
+Date:   Fri Aug 7 00:00:45 2015 +0800
+
+    ～～终端移植
+
+commit a4107dff7e807d823888baa728b0b361f40c77d0
+Author: rainbowrao <441718399@qq.com>
+Date:   Thu Aug 6 22:37:54 2015 +0800
+
+    ~~~更新自优化
+
+commit c4535a1869467888ce7747e230a80938a2db5db2
+Author: rainbowrao <441718399@qq.com>
+Date:   Thu Aug 6 17:37:39 2015 +0800
+
+    更新功率结果提示框
+
+commit 24ee5d8720e0b220d87645c165ff1af2e5c03391
+Author: rainbowrao <441718399@qq.com>
+Date:   Wed Aug 5 20:24:35 2015 +0800
+
+    edit
+
+commit f737e8a6c67167392d7a755d4c446367aec06a52
+Author: rainbowrao <441718399@qq.com>
+Date:   Wed Aug 5 14:18:15 2015 +0800
+
+    delete a file
+
+commit e3f164f8b8a13f2cadb2d67ec8da548c1948acf7
+Merge: 6f8d0ea 119d7ab
+Author: rainbowrao <441718399@qq.com>
+Date:   Wed Aug 5 13:54:22 2015 +0800
+
+    Merge branch 'master' of https://github.com/rao1219/qt-SON
+
+commit 6f8d0ea21825dd55c05375a9ad3547d944457d10
+Author: rainbowrao <441718399@qq.com>
+Date:   Wed Aug 5 13:53:22 2015 +0800
+
+    second test
+
+commit bacbebc00b8a583a047142448ef8323c41837ad6
+Author: rainbowrao <441718399@qq.com>
+Date:   Wed Aug 5 13:23:10 2015 +0800
+
+    first commit
+
+commit 1bcd21efe707d04a6811b56629720bde1789c5e2
+Author: rainbowrao <441718399@qq.com>
+Date:   Wed Aug 5 09:34:25 2015 +0800
+
+    upup
+
+commit 119d7abc5a29468b5957ea859122ed9dfd183a73
+Author: rao1219 <441718399@qq.com>
+Date:   Wed Aug 5 07:54:25 2015 +0800
+
+    Update README.md
+
+commit 62b4adb78c28a0dab979ce12328cd4eb1d862282
+Author: rao1219 <441718399@qq.com>
+Date:   Wed Aug 5 07:47:53 2015 +0800
+
+    Create README.md
+
+commit b83cc5fa467c1bfdad3ff1a3ef77f686bf2e6602
+Author: rainbowrao <441718399@qq.com>
+Date:   Wed Aug 5 07:22:55 2015 +0800
+
+    自配置完成

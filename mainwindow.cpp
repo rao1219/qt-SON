@@ -33,6 +33,14 @@ MainWindow::MainWindow(QWidget *parent) :
     out = "";
     m=1;n=0;
     qDebug()<<"---未来无线网络自优化演示软件平台---"<<endl;
+    QPalette bgpal = palette();
+    bgpal.setColor (QPalette::Background, QColor (29, 15, 29));
+    //bgpal.setColor (QPalette::Background, Qt::transparent);
+    bgpal.setColor (QPalette::Foreground, QColor(255,255,255,255));
+    setPalette (bgpal);
+
+
+    this->ui->graphicsView->setToolTip("<html><font color='red'>test</font></html>");
 
 }
 
@@ -120,11 +128,20 @@ void MainWindow::on_pushButton_clicked()
             qDebug()<<"x,y:"<<temp->x()<<" "<<temp->y()<<endl;
 
             if(temp->frequency==1)
-                this->scene->addEllipse(temp->x(),temp->y(),(setAlgo->ratio)*EXR,(setAlgo->ratio)*EXR,blackPen,blueBrush);
+            {
+                tmp=this->scene->addEllipse(temp->x(),temp->y(),(setAlgo->ratio)*EXR,(setAlgo->ratio)*EXR,blackPen,blueBrush);
+                tmp->setToolTip("<html><font color='red'>green</font></html>");
+            }
             else if(temp->frequency==6)
-                this->scene->addEllipse(temp->x(),temp->y(),(setAlgo->ratio)*EXR,(setAlgo->ratio)*EXR,blackPen,redBrush);
+            {
+                tmp=this->scene->addEllipse(temp->x(),temp->y(),(setAlgo->ratio)*EXR,(setAlgo->ratio)*EXR,blackPen,redBrush);
+                tmp->setToolTip("<html><font color='red'>blue</font></html>");
+            }
             else if(temp->frequency==11)
-                this->scene->addEllipse(temp->x(),temp->y(),(setAlgo->ratio)*EXR,(setAlgo->ratio)*EXR,blackPen,yellowBrush);
+            {
+                tmp=this->scene->addEllipse(temp->x(),temp->y(),(setAlgo->ratio)*EXR,(setAlgo->ratio)*EXR,blackPen,yellowBrush);
+                tmp->setToolTip("<html><font color='red'>red</font></html>");
+            }
         }
     }
     _addLineGraph();

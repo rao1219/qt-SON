@@ -33,6 +33,7 @@ public:
     GraphicsTest *graTest;
     bool hasSet;
     timer mytime[10];
+    QGraphicsEllipseItem *tmp;
 public slots:
     void myslots();
 
@@ -69,7 +70,7 @@ private:
     QGraphicsScene *scene;
     QGraphicsEllipseItem *red;
     QGraphicsEllipseItem *blue;
-    QGraphicsEllipseItem *yellow;
+    QGraphicsEllipseItem *yellow; 
 
     int m,n;
     QString out;
