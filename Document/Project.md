@@ -5,6 +5,7 @@
 
 | 日期        | 内容   | 
 | --------   | -----:  | 
+|10-15|[中期定级检查] |
 | 10-4        |[数据挖掘论文](http://aminer.org/search/Data%20Mining)| 
 | 10-2        | [相关字段信息](https://github.com/rao1219/qt-SON/blob/master/Document/naming.md)        |
 | 9-27        | [后续论文安排](https://github.com/rao1219/qt-SON/blob/master/Document/gantt.md)   |  
