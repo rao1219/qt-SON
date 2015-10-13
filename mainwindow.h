@@ -13,6 +13,7 @@
 #include "set_algorithm.h"
 #include "self_youhua.h"
 #include "self_optimize_set.h"
+#include "introduce.h"
 
 #define R 30
 using namespace std;
@@ -34,6 +35,8 @@ public:
     bool hasSet;
     timer mytime[10];
     QGraphicsEllipseItem *tmp;
+    introduce *introwindow;
+
 public slots:
     void myslots();
 

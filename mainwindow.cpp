@@ -39,6 +39,10 @@ MainWindow::MainWindow(QWidget *parent) :
     bgpal.setColor (QPalette::Foreground, QColor(255,255,255,255));
     setPalette (bgpal);
 
+    introwindow = new introduce;
+    qDebug()<<"Welcome!"<<endl;
+    introwindow->exec();
+
 
     this->ui->graphicsView->setToolTip("<html><font color='red'>test</font></html>");
 
@@ -131,19 +135,19 @@ void MainWindow::on_pushButton_clicked()
             if(temp->frequency==1)
             {
                 tmp=this->scene->addEllipse(temp->x(),temp->y(),(setAlgo->ratio)*EXR,(setAlgo->ratio)*EXR,blackPen,blueBrush);
-                apContent="<html><h1><font color='red'>基站信息</font></h1><font color='green'>基站频率："+QString::number(temp->frequency)+"</font><br><font color='green'>基站功率："+QString::number(temp->power)+"</font></html>";
+                apContent="<html><h1><font color='red'>基站信息</font></h1><font color='green'>基站频率："+QString::number(temp->frequency)+"</font><br><font color='green'>基站功率："+QString::number(setAlgo->resultPower)+"</font><br><font color='green'>网络容量："+QString::number(temp->total_wifiSpeed)+"</font><br><font color='green'>用户容量："+QString::number(temp->totalUser)+"</font><br></html>";
                 tmp->setToolTip(apContent);
             }
             else if(temp->frequency==6)
             {
                 tmp=this->scene->addEllipse(temp->x(),temp->y(),(setAlgo->ratio)*EXR,(setAlgo->ratio)*EXR,blackPen,redBrush);
-                apContent="<html><h1><font color='red'>基站信息</font></h1><font color='green'>基站频率："+QString::number(temp->frequency)+"</font><br><font color='green'>基站功率："+QString::number(temp->power)+"</font></html>";
+                apContent="<html><h1><font color='red'>基站信息</font></h1><font color='green'>基站频率："+QString::number(temp->frequency)+"</font><br><font color='green'>基站功率："+QString::number(setAlgo->resultPower)+"</font><br><font color='green'>网络容量："+QString::number(temp->total_wifiSpeed)+"</font><br><font color='green'>用户容量："+QString::number(temp->totalUser)+"</font><br></html>";
                 tmp->setToolTip(apContent);
             }
             else if(temp->frequency==11)
             {
                 tmp=this->scene->addEllipse(temp->x(),temp->y(),(setAlgo->ratio)*EXR,(setAlgo->ratio)*EXR,blackPen,yellowBrush);
-                apContent="<html><h1><font color='red'>基站信息</font></h1><font color='green'>基站频率："+QString::number(temp->frequency)+"</font><br><font color='green'>基站功率："+QString::number(temp->power)+"</font></html>";
+                apContent="<html><h1><font color='red'>基站信息</font></h1><font color='green'>基站频率："+QString::number(temp->frequency)+"</font><br><font color='green'>基站功率："+QString::number(setAlgo->resultPower)+"</font><br><font color='green'>网络容量："+QString::number(temp->total_wifiSpeed)+"</font><br><font color='green'>用户容量："+QString::number(temp->totalUser)+"</font><br></html>";
                 tmp->setToolTip(apContent);
             }
         }
@@ -196,19 +200,19 @@ void MainWindow::on_pushButton_2_clicked()
             if(temp->frequency==1)
             {
                 tmp=this->scene->addEllipse(temp->x(),temp->y(),(setAlgo->ratio)*EXR,(setAlgo->ratio)*EXR,blackPen,blueBrush);
-                apContent="<html><h1><font color='red'>基站信息</font></h1><font color='green'>基站频率："+QString::number(temp->frequency)+"</font><br><font color='green'>基站功率："+QString::number(temp->power)+"</font></html>";
+                apContent="<html><h1><font color='red'>基站信息</font></h1><font color='green'>基站频率："+QString::number(temp->frequency)+"</font><br><font color='green'>基站功率："+QString::number(temp->power)+"</font><br><font color='green'>网络容量："+QString::number(temp->total_wifiSpeed)+"</font><br><font color='green'>用户容量："+QString::number(temp->totalUser)+"</font><br></html>";
                 tmp->setToolTip(apContent);
             }
             else if(temp->frequency==6)
             {
                 tmp=this->scene->addEllipse(temp->x(),temp->y(),(setAlgo->ratio)*EXR,(setAlgo->ratio)*EXR,blackPen,redBrush);
-                apContent="<html><h1><font color='red'>基站信息</font></h1><font color='green'>基站频率："+QString::number(temp->frequency)+"</font><br><font color='green'>基站功率："+QString::number(temp->power)+"</font></html>";
+                apContent="<html><h1><font color='red'>基站信息</font></h1><font color='green'>基站频率："+QString::number(temp->frequency)+"</font><br><font color='green'>基站功率："+QString::number(temp->power)+"</font><br><font color='green'>网络容量："+QString::number(temp->total_wifiSpeed)+"</font><br><font color='green'>用户容量："+QString::number(temp->totalUser)+"</font><br></html>";
                 tmp->setToolTip(apContent);
             }
             else if(temp->frequency==11)
             {
                 tmp=this->scene->addEllipse(temp->x(),temp->y(),(setAlgo->ratio)*EXR,(setAlgo->ratio)*EXR,blackPen,yellowBrush);
-                apContent="<html><h1><font color='red'>基站信息</font></h1><font color='green'>基站频率："+QString::number(temp->frequency)+"</font><br><font color='green'>基站功率："+QString::number(temp->power)+"</font></html>";
+                apContent="<html><h1><font color='red'>基站信息</font></h1><font color='green'>基站频率："+QString::number(temp->frequency)+"</font><br><font color='green'>基站功率："+QString::number(temp->power)+"</font><br><font color='green'>网络容量："+QString::number(temp->total_wifiSpeed)+"</font><br><font color='green'>用户容量："+QString::number(temp->totalUser)+"</font><br></html>";
                 tmp->setToolTip(apContent);
             }
         }

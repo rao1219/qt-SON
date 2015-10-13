@@ -164,7 +164,7 @@ double Set_algorithm::getResultPower()
         int maxEErlabel=0;
         for(int i=0;i<validPower.size();i++){
             qDebug()<<validPower.at(i)<<endl;
-            eer=validPower.at(i)*19/labelNum.at(i)*(_x*_y);
+            eer=labelNum.at(i)*(_x*_y)/validPower.at(i)*19;
             if(eer>maxEEr){
                 maxEEr=eer;
                 maxEErlabel=i;

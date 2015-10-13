@@ -24,7 +24,8 @@ SOURCES += main.cpp\
     self_optimize_set.cpp \
     eventbutton.cpp \
     eventset.cpp \
-    timer.cpp
+    timer.cpp \
+    introduce.cpp
 
 HEADERS  += mainwindow.h \
     self_set.h \
@@ -37,13 +38,15 @@ HEADERS  += mainwindow.h \
     self_optimize_set.h \
     eventbutton.h \
     eventset.h \
-    timer.h
+    timer.h \
+    introduce.h
 
 FORMS    += mainwindow.ui \
     self_set.ui \
     graphicstest.ui \
     self_optimize_set.ui \
-    eventset.ui
+    eventset.ui \
+    introduce.ui
 
 
 RESOURCES += \
