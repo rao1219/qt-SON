@@ -116,7 +116,7 @@ double Set_algorithm::getResultPower()
         QList<int> labelNum;
         QList<double> eerList;
         int notValid=0;
-        for(double po=this->power;po>=this->power-1;po=po-0.1)
+        for(double po=this->power;po>=this->power-2;po=po-0.1)
         {
             for(int k=0;k<400;k++){
                 for(int j=0;j<400;j++){
@@ -164,7 +164,7 @@ double Set_algorithm::getResultPower()
         int maxEErlabel=0;
         for(int i=0;i<validPower.size();i++){
             qDebug()<<validPower.at(i)<<endl;
-            eer=labelNum.at(i)*(_x*_y)/validPower.at(i)*19;
+            eer=validPower.at(i)*19/labelNum.at(i)*(_x*_y);
             if(eer>maxEEr){
                 maxEEr=eer;
                 maxEErlabel=i;
